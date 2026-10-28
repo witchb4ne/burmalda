@@ -1,4 +1,11 @@
-export const getGamesMock = (): Promise<any[]> => {
+type Game = {
+  id: number
+  name: string
+  icon: string
+  description: string
+}
+
+export const getGamesMock = (): Promise<Game[]> => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve([

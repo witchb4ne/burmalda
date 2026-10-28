@@ -104,3 +104,42 @@ main {
 .game-card button:hover {
   background: #f0cf55;
 }
+
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #d4af37;
+  background-color: #252525;
+}
+
+.game-card a {
+  display: inline-block;
+  margin: 6px;
+  color: #d4af37;
+  text-decoration: none;
+}
+
+.game-card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #999999;
+}
